@@ -1,0 +1,212 @@
+/*----------- Main Styles -----*/
+body {
+    background: #222;
+    color: #eaeaea;
+    padding: 0 16px;
+    font: 100% "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    max-width: 800px;
+    min-width: 300px;
+}
+
+em {
+    color: #ea6f05;
+}
+
+/*------- Styles for Hint -------*/
+.hover-hint p {
+    border: 1px solid #ea6f05;
+    font-size: 0.8em;
+    margin: 30px 0 0 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+}
+
+.hover-hint .hint {
+    visibility: hidden;
+    opacity: 0;
+    -moz-transition: visibility 1s, opacity 1s;
+    -webkit-transition: visibility 1s, opacity 1s;
+    transition: visibility 1s, opacity 1s;
+}
+
+.hover-hint:hover p {
+    outline: 1px solid #eb8e3e;
+}
+
+.hover-hint:hover .hint {
+    visibility: visible;
+    opacity: 1;
+}
+
+.hover-hint pre {
+    min-width: 200px;
+    max-width: 400px;
+
+}
+
+/*---- Syntax Colors -----*/
+.orange {
+    color: #ffa500;
+}
+
+.blue {
+    color: #227cbe;
+}
+
+.light-blue {
+    color: #8bc0e6;
+}
+
+.dark-orange {
+    color: #b75107;
+}
+
+.green {
+    color: #61af12;
+}
+
+.flag {
+
+    width: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    background-color: #006aa7;
+    float: left;
+
+}
+
+.lineTop {
+    float: left;
+    background-color: #fecc00;
+    width: 100px;
+    height: 200px;
+
+}
+
+.right {
+    float: left;
+    background-color: #006aa7;
+    width: 700px;
+    height: 200px;
+}
+
+.clear {
+    clear: both;
+}
+
+.lineMid {
+    background-color: #fecc00;
+    width: 1000px;
+    height: 100px;
+
+}
+
+.downL {
+    width: 200px;
+    height: 200px;
+    background-color: #006aa7;
+    float: left;
+
+}
+
+.lineDown {
+    float: left;
+    background-color: #fecc00;
+    width: 100px;
+    height: 200px;
+}
+
+.downR {
+
+    float: left;
+    background-color: #006aa7;
+    width: 700px;
+    height: 200px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+.flag2 {
+
+    width: 1000px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.l {
+    float: left;
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-top: 300px solid transparent;
+    border-bottom: 300px solid transparent;
+    border-left: 300px solid green;
+
+}
+
+.l1 {
+
+    width: 1000px;
+    height: 150px;
+    background-color: #fecc00;
+
+}
+
+.l2 {
+
+    width: 1000px;
+    height: 150px;
+    background-color: white;
+
+}
+
+.l3 {
+
+    width: 1000px;
+    height: 150px;
+    background-color: red;
+
+}
+
+.l4 {
+
+    width: 1000px;
+    height: 150px;
+    background-color: dodgerblue;
+
+}
+
+
+.blok {
+    bottom: -109px;
+    right: 17px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: -45px 0 0 0 white;
+
+}
+
